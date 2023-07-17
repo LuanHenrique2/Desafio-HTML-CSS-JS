@@ -1,0 +1,46 @@
+@media (max-width: 700px) {
+    .container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+    }
+
+    .container .info h1 {
+        font-size: 20px;
+    }
+
+    .formulario {
+        width: 50%;
+        height: auto;
+        padding: 20px;
+    }
+
+    input, texterea {
+        font-size: medium;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    #mensagem {
+        margin: 0;
+        font-size: medium;
+        padding: 5px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 525px) {
+    .container .info h1{
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-atendimento {
+        font-size: 0px;
+    }
+}
