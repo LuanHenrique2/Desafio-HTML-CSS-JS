@@ -59,23 +59,28 @@ textarea {
 #mensagem {
     font-size: 24px;
     font-weight: 700;
+    resize: none;
 }
 
 h2 {
     font-weight: 400;
 }
 
-.btn-submit {
+.btn-button {
     margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    font-size: 25px;
     background-color: #3ccc87;
     cursor: pointer;
     color: #ffffff;
     border: none;
+    border-radius: 5px;
     font-weight: 700;
     opacity: unset;
 }
 
-.btn-submit:hover {
+.btn-button:hover {
     color:#000000;
     transition: 0.3 ease-in-out;
 }
